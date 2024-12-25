@@ -5,9 +5,10 @@ def sayilari_topla(sayilar):
         toplam += sayi  # Her sayıyı toplama ekliyoruz
     return toplam
 
-# Fonksiyonu kullanarak bir listeyi işliyoruz
-sayilar = [1, 2, 3, 4, 5]
-sonuc = sayilari_topla(sayilar)
+if __name__ == "__main__":
+    # Fonksiyonu kullanarak bir listeyi işliyoruz
+    sayilar = [1, 2, 3, 4, 5]
+    sonuc = sayilari_topla(sayilar)
 
-# Sonucu ekrana yazdırıyoruz
-print("Sayıların toplamı:", sonuc)
+    # Sonucu ekrana yazdırıyoruz
+    print("Sayıların toplamı:", sonuc)
