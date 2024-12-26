@@ -5,6 +5,8 @@ def sayilari_topla(sayilar):
         toplam += sayi  # Her sayıyı toplama ekliyoruz
     return toplam
 
+# denemedendemdemdemdedem
+
 if __name__ == "__main__":
     # Fonksiyonu kullanarak bir listeyi işliyoruz
     sayilar = [1, 2, 3, 4, 5]
