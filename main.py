@@ -1,6 +1,6 @@
 # Sayıların toplamını hesaplayan fonksiyon
 def sayilari_topla(sayilar):
-    toplam = 0
+    toplam = 1
     for sayi in sayilar:
         toplam += sayi  # Her sayıyı toplama ekliyoruz
     return toplam
